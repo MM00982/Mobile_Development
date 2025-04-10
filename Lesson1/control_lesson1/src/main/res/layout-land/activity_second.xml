@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1"
+    android:padding="16dp">
+
+    <!-- Строка 1: Текст + две кнопки -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <!-- Текстовое поле (занимает всю ширину 1-го столбца) -->
+        <EditText
+            android:id="@+id/tvSecondTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="New life for mirea activity!"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        </TableRow>
+
+    <!-- Строка 2: ПЕРВАЯ и ВТОРАЯ КНОПКА -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПЕРВАЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="ВТОРАЯ КНОПКА" />
+    </TableRow>
+
+    <!-- Строка 3: ТРЕТЬЯ и ЧЕТВЁРТАЯ КНОПКА -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ТРЕТЬЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="ЧЕТВЁРТАЯ КНОПКА" />
+    </TableRow>
+
+    <!-- Строка 4: ПЯТАЯ и ШЕСТАЯ КНОПКА -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПЯТАЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="ШЕСТАЯ КНОПКА" />
+    </TableRow>
+
+</TableLayout>
