@@ -34,5 +34,10 @@
         android:name="ru.mirea.musin.mireaproject.ui.web.WebViewFragment"
         android:label="Browser"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_task"
+        android:name="ru.mirea.musin.mireaproject.ui.task.TaskFragment"
+        android:label="Background Task"
+        tools:layout="@layout/fragment_task" />
 
 </navigation>

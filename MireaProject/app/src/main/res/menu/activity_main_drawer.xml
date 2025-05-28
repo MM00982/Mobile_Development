@@ -26,6 +26,9 @@
             android:id="@+id/nav_web"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="Браузер" />
+        <item
+            android:id="@+id/nav_task"
+            android:title="Worker"/>
 
     </group>
 </menu>

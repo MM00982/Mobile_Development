@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_gallery,
                 R.id.nav_slideshow,
                 R.id.nav_data,
-                R.id.nav_web)
+                R.id.nav_web,
+                R.id.nav_task)
                 .setOpenableLayout(drawer)
                 .build();
 
