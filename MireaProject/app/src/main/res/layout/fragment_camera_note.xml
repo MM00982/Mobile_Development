@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnShot"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Сделать фото"/>
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:scaleType="centerCrop"
+        android:paddingTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Комментарий к фото"/>
+</LinearLayout>

@@ -46,7 +46,10 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_slideshow,
                 R.id.nav_data,
                 R.id.nav_web,
-                R.id.nav_task)
+                R.id.nav_task,
+                R.id.nav_compass,
+                R.id.nav_camera_note,
+                R.id.nav_mic)
                 .setOpenableLayout(drawer)
                 .build();
 
@@ -67,4 +70,5 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }

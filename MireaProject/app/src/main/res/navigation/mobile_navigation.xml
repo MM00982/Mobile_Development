@@ -40,4 +40,23 @@
         android:label="Background Task"
         tools:layout="@layout/fragment_task" />
 
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="ru.mirea.musin.mireaproject.ui.compass.CompassFragment"
+        android:label="Компас"
+        tools:layout="@layout/fragment_compass"/>
+
+    <fragment
+        android:id="@+id/nav_camera_note"
+        android:name="ru.mirea.musin.mireaproject.ui.camera.CameraNoteFragment"
+        android:label="Фото-заметка"
+        tools:layout="@layout/fragment_camera_note"/>
+
+    <fragment
+        android:id="@+id/nav_mic"
+        android:name="ru.mirea.musin.mireaproject.ui.mic.MicLevelFragment"
+        android:label="Шумомер"
+        tools:layout="@layout/fragment_mic_level"/>
+
+
 </navigation>
