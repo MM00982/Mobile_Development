@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EmployeeDB</string>
+    <string name="add_hero">Добавить героя</string>
+</resources>

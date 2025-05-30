@@ -41,15 +41,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = binding.navView;
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home,
-                R.id.nav_gallery,
-                R.id.nav_slideshow,
-                R.id.nav_data,
-                R.id.nav_web,
-                R.id.nav_task,
-                R.id.nav_compass,
-                R.id.nav_camera_note,
-                R.id.nav_mic)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
+                R.id.nav_data, R.id.nav_web, R.id.nav_task,
+                R.id.nav_compass, R.id.nav_camera_note, R.id.nav_mic,
+                R.id.nav_profile, R.id.nav_file_lab)
                 .setOpenableLayout(drawer)
                 .build();
 

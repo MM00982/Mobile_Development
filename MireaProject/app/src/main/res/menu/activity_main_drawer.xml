@@ -42,5 +42,13 @@
             android:id="@+id/nav_mic"
             android:title="Шумомер"/>
 
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Профиль"/>
+
+        <item
+            android:id="@+id/nav_file_lab"
+            android:title="Файлы"/>
+
     </group>
 </menu>

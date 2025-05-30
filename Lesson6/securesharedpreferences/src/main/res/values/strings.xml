@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SecureSharedPreferences</string>
+    <string name="poet_image">Фото поэта</string>
+    <string name="poet_name">Владимир Маяковский</string>
+</resources>

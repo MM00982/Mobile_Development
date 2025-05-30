@@ -58,5 +58,16 @@
         android:label="Шумомер"
         tools:layout="@layout/fragment_mic_level"/>
 
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.musin.mireaproject.ui.profile.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_file_lab"
+        android:name="ru.mirea.musin.mireaproject.ui.filelab.FileLabFragment"
+        android:label="Файлы"
+        tools:layout="@layout/fragment_file_lab" />
 
 </navigation>
