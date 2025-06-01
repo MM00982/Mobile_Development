@@ -70,4 +70,10 @@
         android:label="Файлы"
         tools:layout="@layout/fragment_file_lab" />
 
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="ru.mirea.musin.mireaproject.ui.network.NetworkFragment"
+        android:label="@string/menu_network"
+        tools:layout="@layout/fragment_network" />
+
 </navigation>

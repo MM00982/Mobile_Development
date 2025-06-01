@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461071283779",
+    "project_id": "vdsdsvsnvsdjhb",
+    "storage_bucket": "vdsdsvsnvsdjhb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461071283779:android:d675afd83399030f1886f6",
+        "android_client_info": {
+          "package_name": "ru.mirea.musin.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2mS6Rz9xh7ehEYcTMf8chvTtKXCXfirs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
