@@ -64,6 +64,7 @@ Firebase SDK — интегрирован через ассистент Android 
 ![image_2025-06-02_01-54-43](https://github.com/user-attachments/assets/b0734969-4978-4975-ae6a-b3370b775641)
 ![image_2025-06-02_01-51-00](https://github.com/user-attachments/assets/8f621968-9497-4706-a928-2e08fae44a69)
 ![image_2025-06-02_01-51-10](https://github.com/user-attachments/assets/5de74ef5-e497-4c2f-87a8-e94c126ebccb)
+![image_2025-06-02_02-22-18](https://github.com/user-attachments/assets/a805b813-2cf8-4e44-bf96-896555d9cd76)
 
 ---
 
